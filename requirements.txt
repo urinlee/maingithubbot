@@ -1,0 +1,6 @@
+discord.py
+asyncio
+pyautogui
+bs4
+urllib3
+beautifulsoup4
