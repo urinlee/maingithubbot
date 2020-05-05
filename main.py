@@ -7,6 +7,7 @@ import traceback
 import pyautogui
 
 
+
 client = discord.Client()
 global messages
 messages = [f"깃도움", f"{len(client.users)}명의 사람들과 함께", f"{len(client.guilds)}개의 길드와 함께", "깃허브 공부"]
@@ -222,4 +223,4 @@ async def on_message(message):
 
 
 
-client.run("NzA2NDk0MDYxOTc2MDkyNjkz.Xq7QeA.VvJ7MgaGeWrLlRQ10Ja5wvvd5Q4")
+client.run(os.environ['token'])
